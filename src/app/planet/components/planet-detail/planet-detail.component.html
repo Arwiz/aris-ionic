@@ -1,0 +1,9 @@
+<ion-content>
+    <h2> Planet detail </h2>
+    <ion-card  *ngIf="planet">
+        <ion-card-header>
+            <ion-card-title>{{ planet.name }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>{{ planet.content }}</ion-card-content>
+    </ion-card>
+</ion-content>
